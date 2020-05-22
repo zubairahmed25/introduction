@@ -13,7 +13,7 @@ function App() {
       <h3>You clicked {count} times!</h3>
 
       <button onClick={() => setCount(count - 1)}>Decrements</button>
-      <button onClick={() => setCount(count + 1)}>Increment</button>
+      <button onClick={() => setCount(count + 1)}>Increments</button>
     </div>
   );
 }
