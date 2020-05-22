@@ -12,8 +12,8 @@ function App() {
       <h2>COUNTER APP</h2>
       <h3>You clicked {count} times!</h3>
 
-      <button onClick={() => setCount(count - 1)}>Decrements</button>
-      <button onClick={() => setCount(count + 1)}>Increments</button>
+      <button onClick={() => setCount(count - 1)}>Decrement</button>
+      <button onClick={() => setCount(count + 1)}>Increment</button>
     </div>
   );
 }
